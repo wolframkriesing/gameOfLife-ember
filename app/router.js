@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('about');
   this.route('index', {path: '/'});
+  this.route('preset', {path: '/preset/:kind'});
 });
 
 export default Router;
