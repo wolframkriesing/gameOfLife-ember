@@ -1,6 +1,5 @@
 export default Ember.Route.extend({
-  model() {
-    return 'NIX';
-    //return this.store.query('post', { favorite: true });
+  model(params) {
+    return JSON.stringify(params);
   }
 });
