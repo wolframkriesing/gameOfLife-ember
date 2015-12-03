@@ -1,0 +1,20 @@
+body, html {
+  margin: 0;
+}
+
+footer {
+  margin-top: 2em;
+  padding: 1em;
+}
+
+footer,
+footer a {
+  font-size: smaller;
+  background-color: darkgray;
+  color: white;
+  display: block;
+}
+
+footer a {
+  text-decoration: none;
+}
