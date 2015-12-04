@@ -1,1 +1,8 @@
-ONE
+
+{{#each model as |row|}}
+  <div class="row">
+    {{#each row as |cell|}}
+      <div class="cell is{{cell}}"></div>
+    {{/each}}
+  </div>
+{{/each}}
