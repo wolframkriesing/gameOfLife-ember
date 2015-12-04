@@ -10,8 +10,8 @@ Router.map(function() {
   this.route('index', {path: '/'});
   this.route('preset', function() {
     this.route('new');
+    this.route('one', {path: ':kind'});
   });
-  this.route('preset', {path: '/preset/:kind'});
 });
 
 export default Router;
