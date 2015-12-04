@@ -8,6 +8,9 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('about');
   this.route('index', {path: '/'});
+  this.route('preset', function() {
+    this.route('new');
+  });
   this.route('preset', {path: '/preset/:kind'});
 });
 
